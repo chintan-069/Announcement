@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "refund-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/refundForm/RefundFormWebPart.js",
+          "manifest": "./src/webparts/refundForm/RefundFormWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RefundFormWebPartStrings": "lib/webparts/refundForm/loc/{locale}.js"
+  }
+}
